@@ -13,7 +13,6 @@ function ContextProvider({ children }) {
       autoClose: 1000,
       hideProgressBar: true,
       closeOnClick: true,
-      pauseOnHover: false,
       draggable: false,
       style: {
         width: "280px",
