@@ -1,0 +1,53 @@
+.containerProduct {
+  max-width: 1450px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.cardProduct {
+  max-width: 276px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: white;
+}
+
+.category {
+  background-color: #f94e30;
+  box-shadow: 0 1px 2px #0000000d, 0 1px 2px #0000003d;
+  color: #fff;
+  font-size: 13px;
+  left: -5px;
+  padding: 0.2rem 1rem;
+  position: absolute;
+  text-transform: capitalize;
+  top: 20px;
+}
+
+.geay_div {
+  background-color: #00000005;
+  padding: 2rem;
+}
+
+.text_oldpirice {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.addShop {
+  background-color: #ffeee8;
+  color: #f94e30;
+  padding: 10px 20px;
+  border: 1px solid red;
+}
+
+.addShopinactiv {
+  border: 1px solid #f94e30;
+  font-size: 15px;
+  background-color: #f94e30;
+  color: white;
+  height: 46px;
+  padding: 0 1.8rem;
+  transition: all 0.3s ease-in-out;
+}
